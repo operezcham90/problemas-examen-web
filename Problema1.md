@@ -8,9 +8,6 @@ Aquí tienes un ejemplo de código HTML, CSS y JavaScript que contiene un error.
   <style>
     ...
   </style>
-  <script>
-    ...
-  </script>
 </head>
 <body>
   <h1>Mi página con error</h1>
@@ -20,7 +17,9 @@ Aquí tienes un ejemplo de código HTML, CSS y JavaScript que contiene un error.
     <button onclick="incrementar()">Incrementar</button>
   </div>
 
-  <script src="script.js"></script>
+  <script>
+    ...
+  </script>
 </body>
 </html>
 ```
