@@ -42,7 +42,7 @@ JavaScript:
 ```javascript
 function incrementar() {
   var valor = document.getElementById('valor').innerHTML;
-  valor++;
+  valor += 1;
   document.getElementById('valor').innerHTML = valor;
 }
 ```
